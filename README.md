@@ -1,7 +1,7 @@
 # Real-time Area Intrusion Detection Method and System based on YOLOv5
 ![GitHub stars](https://img.shields.io/github/stars/JakeVander/YOLOv5-Intrusion-Detection-System)
 
-[中文文档](./README.md)
+[中文文档](./README_zh.md)
 
 **Update 2023.04.28**
 

@@ -1,7 +1,7 @@
 # 基于yolov5的实时区域入侵检测方法与系统
 ![GitHub stars](https://img.shields.io/github/stars/JakeVander/YOLOv5-Intrusion-Detection-System)
 
-[英文文档](./README_EN.md)
+[英文文档](./README.md)
 
 **更新2023.04.28**
 
