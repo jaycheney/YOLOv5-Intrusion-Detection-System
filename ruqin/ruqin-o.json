@@ -1,0 +1,28 @@
+{
+  "path": "/usr/cy_githouse/yolov5/data/images/ruqin.mp4",
+  "outputs": {
+    "object": [
+{
+        "name": "dangerous",
+        "polygon": {
+          "x1": 213,
+          "y1": 302,
+          "x2": 556,
+          "y2": 303,
+          "x3": 556,
+          "y3": 693,
+          "x4": 201,
+          "y4": 693
+        }
+      }
+    ]
+  },
+  "time_labeled": 1597474727658,
+  "labeled": true,
+  "size": {
+    "width": 928,
+    "height": 698,
+    "depth": 3
+  }
+}
+
