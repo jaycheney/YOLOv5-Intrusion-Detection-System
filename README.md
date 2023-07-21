@@ -58,11 +58,11 @@ The system interface is divided into the left function selection, the right obje
    ![image-20230428172428674](README.assets/image-20230428172428674.png)
 4. In **视频检测**, you can draw a polygonal area. When an object enters the polygonal area, the category of the object will be detected (the judgment criterion for object entry is the relative position relationship between the center position of the detected box recognized by the target detection and the polygon).
    1. Drawing operation: Check **区域入侵**, click **绘制区域**, click the left mouse button in the **检测结果** area to create the coordinates of the polygon. When the number of created points is greater than or equal to 2, the invasion detection algorithm will automatically start, and only the objects that enter the drawn area will be detected and related detection information will be output, while the objects not outside the area or recognized will not have any output.
-      ![image-20230428173707347](README.assets/image-20230428173707347.png)
-   2. Upload the json format coordinate file: Prepare the file in advance, the content is organized as follows, (xn, yn) represents the coordinate information of a point of the polygon, and the coordinate system takes the upper left corner area of **检测结果** in the software interface as the origin.
+      ![image-20230428173400623](README.assets/image-20230428173400623.png)
+   3. Upload the json format coordinate file: Prepare the file in advance, the content is organized as follows, (xn, yn) represents the coordinate information of a point of the polygon, and the coordinate system takes the upper left corner area of **检测结果** in the software interface as the origin.
       ![image-20230428173707347](README.assets/image-20230428173707347.png)
       Check **区域入侵**, select the uploaded json file, and the invasion detection algorithm will be enabled.
       ![image-20230428173847547](README.assets/image-20230428173847547.png)
-   3. In addition to local videos, real-time video streaming detection is also supported by providing the corresponding video streaming information. Both mouse drawing and uploading area methods are supported for invasion detection, which are not demonstrated due to limitations in computer performance.
+   4. In addition to local videos, real-time video streaming detection is also supported by providing the corresponding video streaming information. Both mouse drawing and uploading area methods are supported for invasion detection, which are not demonstrated due to limitations in computer performance.
 ---
 If you find this repository useful, please consider giving it a star ⭐️! It helps to support the project and show appreciation for the work put into it.
