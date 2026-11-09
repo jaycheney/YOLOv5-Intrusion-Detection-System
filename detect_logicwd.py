@@ -633,9 +633,9 @@ class MyLabel(QLabel):
             # list转dict保存成json
             polygon = zip(self.Polygon_point, self.Polygon_origin2json_list)
 
-            with open('ruqin/ruqin.json', 'w') as ts:
+            with open('ruqin/ruqin.json', 'w', encoding="utf-8") as ts:
                 json.dump(dict(polygon), ts)
-            with open('ruqin/ruqin.json', 'r') as sf:
+            with open('ruqin/ruqin.json', 'r', encoding="utf-8") as sf:
                 j = json.load(sf)
 
             print(j)
